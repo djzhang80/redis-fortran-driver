@@ -1,0 +1,45 @@
+﻿生成启动时间为 2018/6/7 15:31:53。
+     1>项目“E:\paper8\github\hiredis.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(356,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\paper8\github\output\\" /Fd"E:\paper8\github\output\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:prompt hiredis\async.c hiredis\dict.c hiredis\interface.c hiredis\hiredis.c hiredis\net.c hiredis\sds.c hiredis\win32fixes.c
+         win32fixes.c
+     1>e:\paper8\github\hiredis\win32fixes.h(59): warning C4005: “isnan”: 宏重定义
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(289) : 参见“isnan”的前一个定义
+     1>e:\paper8\github\hiredis\win32fixes.h(60): warning C4005: “isfinite”: 宏重定义
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(287) : 参见“isfinite”的前一个定义
+     1>e:\paper8\github\hiredis\win32fixes.h(61): warning C4005: “isinf”: 宏重定义
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(288) : 参见“isinf”的前一个定义
+         sds.c
+     1>e:\paper8\github\hiredis\sds.h(39): warning C4005: “va_copy”: 宏重定义
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdarg.h(37) : 参见“va_copy”的前一个定义
+         net.c
+     1>e:\paper8\github\hiredis\sds.h(39): warning C4005: “va_copy”: 宏重定义
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdarg.h(37) : 参见“va_copy”的前一个定义
+         hiredis.c
+     1>e:\paper8\github\hiredis\sds.h(39): warning C4005: “va_copy”: 宏重定义
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdarg.h(37) : 参见“va_copy”的前一个定义
+         interface.c
+     1>e:\paper8\github\hiredis\interface.c(30): warning C4013: “w32initWinSock”未定义；假设外部返回 int
+     1>e:\paper8\github\hiredis\interface.c(23): warning C4101: “reply”: 未引用的局部变量
+     1>e:\paper8\github\hiredis\interface.c(56): warning C4101: “rs”: 未引用的局部变量
+         dict.c
+         async.c
+     1>e:\paper8\github\hiredis\sds.h(39): warning C4005: “va_copy”: 宏重定义
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdarg.h(37) : 参见“va_copy”的前一个定义
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"E:\paper8\github\output\hiredis.lib" /NOLOGO E:\paper8\github\output\async.obj
+         E:\paper8\github\output\dict.obj
+         E:\paper8\github\output\interface.obj
+         E:\paper8\github\output\hiredis.obj
+         E:\paper8\github\output\net.obj
+         E:\paper8\github\output\sds.obj
+         E:\paper8\github\output\win32fixes.obj
+         hiredis.vcxproj -> E:\paper8\github\output\hiredis.lib
+     1>已完成生成项目“E:\paper8\github\hiredis.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.64
