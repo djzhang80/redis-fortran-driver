@@ -1,0 +1,1 @@
+load script "local lv=redis.call('get',KEYS[1]..KEYS[2]) if lv==false then return redis.call('get',KEYS[1]) else return lv end"
